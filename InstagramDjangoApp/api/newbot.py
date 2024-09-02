@@ -139,6 +139,6 @@ class Bot:
         print(all_data)
 
         return all_data
-# Example usage
-# bot = Bot("132186", "Andywebsite21!", headless=True)
-# bot.get_listings()
+
+bot = Bot("132186", "Andywebsite21!", headless=True)
+bot.get_listings()
